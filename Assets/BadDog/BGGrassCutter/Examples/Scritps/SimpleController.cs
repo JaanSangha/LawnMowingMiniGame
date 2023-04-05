@@ -12,6 +12,7 @@ namespace BadDog
         private CharacterController m_CharacterController;
         private Camera m_Camera;
 
+        //private Collider playerCollider;
 
         private void Start()
         {
@@ -61,6 +62,15 @@ namespace BadDog
         {
             UpdateMove();
             //UpdateRotation();
+        }
+
+        private void OnTriggerEnter(Collider other)
+        {
+            if (other.tag == "SpeedBoost")
+            {
+                moveSpeed = moveSpeed + 2;
+                Destroy(other.gameObject);
+            }
         }
     }
 }
