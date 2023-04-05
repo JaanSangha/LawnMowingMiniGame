@@ -381,7 +381,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2771566135905964981, guid: 4d2f8a57f3724c64db6a9535b2720957, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 288.5
+      value: 259.25
       objectReference: {fileID: 0}
     - target: {fileID: 2771566135905964981, guid: 4d2f8a57f3724c64db6a9535b2720957, type: 3}
       propertyPath: m_LocalPosition.y
@@ -389,7 +389,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2771566135905964981, guid: 4d2f8a57f3724c64db6a9535b2720957, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 190.5
+      value: 119.87
       objectReference: {fileID: 0}
     - target: {fileID: 2771566135905964981, guid: 4d2f8a57f3724c64db6a9535b2720957, type: 3}
       propertyPath: m_LocalRotation.w
@@ -421,7 +421,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2773228950819501465, guid: 4d2f8a57f3724c64db6a9535b2720957, type: 3}
       propertyPath: moveSpeed
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2773228950819501467, guid: 4d2f8a57f3724c64db6a9535b2720957, type: 3}
       propertyPath: m_Name
@@ -638,8 +638,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lookAt: {fileID: 961693021}
-  offset: {x: 0, y: 19.7, z: -17.3}
-  rotation: {x: 44.5, y: 0, z: 0}
+  offset: {x: 0, y: 23.6, z: -16.1}
+  rotation: {x: 37.79, y: 0, z: 0}
   followSpeed: 10
 --- !u!1 &864726018
 GameObject:
@@ -48753,7 +48753,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7692242158108962475
 RectTransform:
   m_ObjectHideFlags: 0
